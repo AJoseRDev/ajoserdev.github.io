@@ -84,7 +84,7 @@ h1 { font-size: 4rem; margin-bottom: 1rem; }
 /* Imagenes */
 
 .kumocraft {
-    background-image: url('https://picsum.photos/id/1/600/400'');
+    background-image: url('https://picsum.photos/id/1/600/400');
     background-size: cover;
     background-position: center;
 }
