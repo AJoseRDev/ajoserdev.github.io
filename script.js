@@ -1,19 +1,24 @@
-// Efecto de aparición al hacer scroll
+// Animación de aparición al hacer scroll
+const observerOptions = {
+    threshold: 0.15
+};
+
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
+    entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('active');
         }
     });
-}, { threshold: 0.1 });
+}, observerOptions);
 
-document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-// Suavizar el scroll de los enlaces
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+// Efecto suave para el menú
+document.querySelectorAll('.nav-links a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        const targetId = this.getAttribute('href');
+        document.querySelector(targetId).scrollIntoView({
             behavior: 'smooth'
         });
     });
