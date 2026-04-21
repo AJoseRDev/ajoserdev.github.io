@@ -81,6 +81,14 @@ h1 { font-size: 4rem; margin-bottom: 1rem; }
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 122, 255, 0.3);
 }
+/* Imagenes */
+
+.kumocraft {
+    background-image: url('https://media1.tenor.com/m/tVrkM5XhW-EAAAAd/flick-esfand.gif');
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* Grid de Proyectos */
 .section { padding: 100px 10%; }
