@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Jose Alvarez</title>
+    <title>AJoseR | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <div id="bg-canvas"></div>
+
     <nav class="navbar">
-        <div class="logo">DA</div>
+        <div class="logo">AJoseR</div>
         <ul class="nav-links">
             <li><a href="#home">Inicio</a></li>
             <li><a href="#projects">Proyectos</a></li>
@@ -19,10 +21,10 @@
     </nav>
 
     <header id="home" class="hero">
-        <div class="hero-content fade-in">
-            <h1>Creative <span class="highlight">Developer</span></h1>
+        <div class="hero-content">
+            <h1>Creative <span class="typewriter" id="typewriter"></span></h1>
             <p>Construyendo experiencias digitales y marcas con propósito.</p>
-            <a href="#projects" class="btn">Explorar Trabajo</a>
+            <a href="#projects" class="btn scroll-link">Explorar Trabajo</a>
         </div>
     </header>
 
@@ -32,34 +34,41 @@
             <div class="card reveal">
                 <div class="card-img p1"></div>
                 <h3>Kumonetwork</h3>
-                <p>Administración de redes y optimización de servidores Minecraft de alto rendimiento.</p>
+                <p>Administración de redes y optimización de servidores Minecraft.</p>
             </div>
             <div class="card reveal">
                 <div class="card-img p2"></div>
                 <h3>ZGen</h3>
-                <p>Identidad visual y conceptos vanguardistas para marcas de streetwear de lujo.</p>
+                <p>Identidad visual y conceptos de streetwear vanguardista.</p>
             </div>
+        </div>
+
+        <h3 class="subsection-title reveal">Plugins Creados</h3>
+        <div class="grid">
             <div class="card reveal">
                 <div class="card-img p3"></div>
-                <h3>BleuCraft</h3>
-                <p>Desarrollo de plugins personalizados y experiencias inmersivas in-game.</p>
+                <h3>BleuCraft Core</h3>
+                <p>Sistema integral de recompensas y gestión de menciones.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-img p4"></div>
+                <h3>KumoTools</h3>
+                <p>Optimización de proxies Velocity y herramientas de administración.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section contact-section">
+    <section id="contact" class="section">
         <div class="contact-card reveal">
             <h2>¿Tienes un proyecto en mente?</h2>
-            <p>Hablemos sobre desarrollo, diseño o colaboraciones.</p>
             <div class="discord-box">
-                <span>Discord:</span>
-                <strong class="highlight">ajoser_</strong>
+                <span>Discord:</span> <strong class="highlight">ajoser_</strong>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 — Diseñado con un enfoque minimalista.</p>
+        <p>&copy; 2026 - AJoseR</p>
     </footer>
 
     <script src="script.js"></script>
