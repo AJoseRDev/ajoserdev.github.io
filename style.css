@@ -80,10 +80,10 @@ h1 { font-size: 4rem; }
 .subsection-title { margin-top: 4rem; font-size: 2rem; border-left: 4px solid white; padding-left: 1rem; }
 
 /* Imágenes de Referencia */
-.p1 { background-image: url('https://picsum.photos/id/1/600/400'); }
+.p1 { background-image: url('https://imgur.com/a/lhps3rd'); }
 .p2 { background-image: url('https://picsum.photos/id/20/600/400'); }
-.p3 { background-image: url('https://picsum.photos/id/30/600/400'); }
-.p4 { background-image: url('https://picsum.photos/id/40/600/400'); }
+.p3 { background-image: url('https://www.atpiluminacion.com/files/actualidad/2109_catalogo/atp-iluminacion-proximamente.jpg'); }
+.p4 { background-image: url('https://www.atpiluminacion.com/files/actualidad/2109_catalogo/atp-iluminacion-proximamente.jpg'); }
 
 .reveal { opacity: 0; transform: translateY(30px); transition: 0.8s all ease; }
 .reveal.active { opacity: 1; transform: translateY(0); }
